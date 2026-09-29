@@ -71,7 +71,7 @@ const d=()=>e.jsx("section",{
                 e.jsx("div",{
                   className:"deliverables-img-wrapper",
                   children:e.jsx("img",{
-                    src:"/Imagens-para-Kit-Mentora-7.webp",
+                    src:"/images/Design sem nome (92).png",
                     alt:"Kit Mentora - Entrega 1",
                     loading:"lazy",
                     decoding:"async",
