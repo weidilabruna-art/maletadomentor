@@ -125,24 +125,24 @@
     gap: 4rem !important;
   }
 }
-/* ===== DELIVERABLES SPACING & TEXT SIZE (OPTIMUM READABILITY) ===== */
+/* ===== DELIVERABLES SPACING & TEXT SIZE (DESKTOP / PC ENHANCED) ===== */
 .deliverables-text,
 .deliverables-card p,
 .deliverables-card span {
-  font-size: 15px !important;
-  line-height: 1.48 !important;
+  font-size: 16.5px !important;
+  line-height: 1.5 !important;
   font-family: 'Montserrat', 'Poppins', sans-serif !important;
   color: #1a1560 !important;
 }
 .deliverables-text strong,
 .deliverables-card strong {
-  font-size: 15px !important;
+  font-size: 16.5px !important;
   font-weight: 700 !important;
   color: #03002E !important;
 }
 .deliverables-item {
-  padding: 14px 0 !important;
-  gap: 12px !important;
+  padding: 16px 0 !important;
+  gap: 14px !important;
 }
 .deliverables-img-wrapper {
   margin-top: -55px !important;
@@ -193,6 +193,13 @@
 }
 
 @media (min-width: 768px) {
+  .deliverables-text,
+  .deliverables-card p,
+  .deliverables-card span,
+  .deliverables-card strong {
+    font-size: 16.5px !important;
+    line-height: 1.5 !important;
+  }
   .deliverables-single-container {
     margin-top: 8rem !important;
   }
@@ -200,6 +207,7 @@
     margin-bottom: 50px !important;
   }
 }
+
 
 
 /* ===== AREA DE MEMBROS BANNER SPACING ===== */
