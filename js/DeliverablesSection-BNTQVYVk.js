@@ -52,11 +52,11 @@ const d=()=>e.jsx("section",{
           children:[
             e.jsx("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E]",
-              children:"Veja Tudo que Você Terá Acesso no Kit de Ferramentas da Mentora:"
+              children:"Veja Tudo que Você Terá Acesso na Maleta do Mentor:"
             }),
             e.jsx("p",{
               className:"text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto",
-              children:"Acesse agora o Kit da Mentora para nunca mais improvisar suas entregas e finalmente ser percebida como a mentora de alto nível que você já é — mesmo que esteja começando agora."
+              children:"Acesse agora a Maleta do Mentor para nunca mais improvisar suas entregas e finalmente ser percebido como o mentor de alto nível que você já é — mesmo que esteja começando agora."
             })
           ]
         })
