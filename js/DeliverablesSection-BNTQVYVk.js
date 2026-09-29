@@ -119,6 +119,18 @@ const d=()=>e.jsx("section",{
             })
           })
         ]
+      }),
+      e.jsx(s,{
+        children:e.jsx("div",{
+          className:"mt-14 md:mt-20 flex justify-center items-center px-2",
+          children:e.jsx("img",{
+            src:"/2-5.webp",
+            alt:"Área de Membros Exclusiva",
+            loading:"lazy",
+            decoding:"async",
+            className:"w-full max-w-4xl object-contain drop-shadow-2xl rounded-2xl hover:scale-[1.02] transition-transform duration-300"
+          })
+        })
       })
     ]
   })
