@@ -1,7 +1,7 @@
 import{j as e,F as s}from"./index-C6USQn8-.js";
 
 const checkIcon=()=>e.jsxs("svg",{
-  className:"w-4 h-4 shrink-0 mt-0.5",
+  className:"w-5 h-5 shrink-0 mt-0.5",
   viewBox:"0 0 24 24",
   fill:"none",
   xmlns:"http://www.w3.org/2000/svg",
@@ -150,10 +150,11 @@ const d=()=>e.jsx("section",{
       /* Bottom Section: Vendas com espaçamento generoso */
       e.jsx(s,{
         children:e.jsxs("div",{
-          style:{textAlign:"center",marginBottom:"3.5rem",color:"#03002E"},
+          style:{textAlign:"center",marginBottom:"3rem",color:"#03002E"},
           children:[
             e.jsxs("h2",{
-              style:{fontSize:"clamp(1.5rem,3vw,2.25rem)",fontWeight:800,lineHeight:1.25,marginBottom:"1rem",color:"#03002E",maxWidth:"50rem",marginLeft:"auto",marginRight:"auto",fontFamily:"Montserrat,Poppins,sans-serif"},
+              className:"sales-section-title",
+              style:{fontSize:"clamp(1.1rem, 4vw, 2.25rem)",fontWeight:800,lineHeight:1.3,marginBottom:"1rem",color:"#03002E",maxWidth:"50rem",marginLeft:"auto",marginRight:"auto",fontFamily:"Montserrat,Poppins,sans-serif"},
               children:[
                 "Além das ferramentas de gestão e entrega da mentoria, tenha o ",
                 e.jsx("strong",{className:"font-bold text-[#03002E]",children:"que precisa pra aumentar suas vendas:"})

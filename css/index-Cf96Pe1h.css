@@ -125,12 +125,12 @@
     gap: 4rem !important;
   }
 }
-/* ===== DELIVERABLES SPACING & SMALLER TEXT FIX ===== */
+/* ===== DELIVERABLES SPACING & TEXT SIZE (EXACT MATCH TO REFERENCE) ===== */
 .deliverables-text,
 .deliverables-card p,
 .deliverables-card span {
   font-size: 13.5px !important;
-  line-height: 1.5 !important;
+  line-height: 1.45 !important;
   font-family: 'Montserrat', 'Poppins', sans-serif !important;
   color: #1a1560 !important;
 }
@@ -153,28 +153,30 @@
   padding: 0 1rem !important;
 }
 
-/* ===== MOBILE & TABLET SMALLER TEXT (< 768px) ===== */
-@media (max-width: 768px) {
+/* ===== MOBILE ADJUSTMENTS (< 640px) ===== */
+@media (max-width: 640px) {
   .deliverables-text,
-  .deliverables-text *,
   .deliverables-card p,
-  .deliverables-card span,
-  .deliverables-card strong {
-    font-size: 10px !important;
-    line-height: 1.35 !important;
+  .deliverables-card span {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
   }
   .deliverables-text strong,
   .deliverables-card strong {
-    font-size: 10px !important;
+    font-size: 13px !important;
     font-weight: 700 !important;
     color: #03002E !important;
   }
   .deliverables-item {
-    padding: 6px 0 !important;
-    gap: 8px !important;
+    padding: 12px 0 !important;
+    gap: 10px !important;
   }
   .deliverables-card {
-    padding: 0 1rem 1.75rem 1rem !important;
+    padding: 0 1.25rem 2rem 1.25rem !important;
+  }
+  .sales-section-title {
+    font-size: 18px !important;
+    line-height: 1.35 !important;
   }
   .deliverables-container {
     gap: 7rem !important;
@@ -190,18 +192,7 @@
   }
 }
 
-@media (min-width: 769px) {
-  .deliverables-text,
-  .deliverables-card p,
-  .deliverables-card span {
-    font-size: 13.5px !important;
-    line-height: 1.5 !important;
-  }
-  .deliverables-text strong,
-  .deliverables-card strong {
-    font-size: 13.5px !important;
-    font-weight: 700 !important;
-  }
+@media (min-width: 768px) {
   .deliverables-single-container {
     margin-top: 8rem !important;
   }
