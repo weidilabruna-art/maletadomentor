@@ -138,7 +138,7 @@ const d=()=>e.jsx("section",{
         children:e.jsx("div",{
           className:"area-membros-banner",
           children:e.jsx("img",{
-            src:"/2-5.webp",
+            src:"/images/Maleta do Mentor. (1).png",
             alt:"Área de Membros Exclusiva",
             loading:"lazy",
             decoding:"async",
