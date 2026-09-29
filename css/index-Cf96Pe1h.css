@@ -155,3 +155,22 @@
     margin-bottom: 28px !important;
   }
 }
+/* ===== DEFINITIVE TEXT SIZE FIX ===== */
+.deliverables-text,
+.deliverables-card p,
+.deliverables-card span {
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat','Poppins',sans-serif !important;
+  color: #1a1560 !important;
+}
+.deliverables-text strong,
+.deliverables-card strong {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #03002E !important;
+}
+.deliverables-item {
+  padding: 18px 0 !important;
+  gap: 14px !important;
+}

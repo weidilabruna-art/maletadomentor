@@ -48,7 +48,7 @@ const d=()=>e.jsx("section",{
       /* Top Section: Gestão e Entrega */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mt-12 mb-16 md:mt-20 md:mb-20 text-primary",
+          className:"text-center mt-16 mb-14 md:mt-24 md:mb-16 text-primary",
           children:[
             e.jsx("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E]",
@@ -136,7 +136,7 @@ const d=()=>e.jsx("section",{
       /* Banner: Área de Membros Exclusiva com espaçamento generoso */
       e.jsx(s,{
         children:e.jsx("div",{
-          className:"my-24 md:my-32 flex justify-center items-center px-2",
+          className:"my-28 md:my-40 flex justify-center items-center px-2",
           children:e.jsx("img",{
             src:"/2-5.webp",
             alt:"Área de Membros Exclusiva",
@@ -150,7 +150,7 @@ const d=()=>e.jsx("section",{
       /* Bottom Section: Vendas com espaçamento generoso */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mt-12 mb-16 md:mt-20 md:mb-20 text-primary",
+          className:"text-center mt-16 mb-14 md:mt-24 md:mb-16 text-primary",
           children:[
             e.jsxs("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E] max-w-3xl mx-auto",
