@@ -43,12 +43,12 @@ const salesItems=[
 const d=()=>e.jsx("section",{
   className:"section-cream py-16 md:py-24",
   children:e.jsxs("div",{
-    className:"content-wrapper max-w-6xl mx-auto",
+    className:"content-wrapper max-w-6xl mx-auto px-4",
     children:[
       /* Top Section: Gestão e Entrega */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mb-10 text-primary",
+          className:"text-center mb-16 md:mb-20 text-primary",
           children:[
             e.jsx("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E]",
@@ -133,10 +133,10 @@ const d=()=>e.jsx("section",{
         ]
       }),
 
-      /* Banner: Área de Membros Exclusiva */
+      /* Banner: Área de Membros Exclusiva com espaçamento generoso */
       e.jsx(s,{
         children:e.jsx("div",{
-          className:"mt-16 md:mt-24 flex justify-center items-center px-2",
+          className:"my-24 md:my-32 flex justify-center items-center px-2",
           children:e.jsx("img",{
             src:"/2-5.webp",
             alt:"Área de Membros Exclusiva",
@@ -147,10 +147,10 @@ const d=()=>e.jsx("section",{
         })
       }),
 
-      /* Bottom Section: Vendas */
+      /* Bottom Section: Vendas com espaçamento generoso */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mt-16 md:mt-24 mb-10 text-primary",
+          className:"text-center mb-16 md:mb-20 text-primary",
           children:[
             e.jsxs("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E] max-w-3xl mx-auto",
@@ -163,10 +163,10 @@ const d=()=>e.jsx("section",{
         })
       }),
 
-      /* Centered Sales Card */
+      /* Centered Sales Card: proporção elegante e vertical igual aos de cima */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"max-w-2xl mx-auto pt-10",
+          className:"deliverables-single-container",
           children:[
             e.jsxs("div",{
               className:"deliverables-card",
@@ -200,7 +200,7 @@ const d=()=>e.jsx("section",{
               ]
             }),
             e.jsx("div",{
-              className:"mt-10 text-center",
+              className:"mt-10 md:mt-12 text-center",
               children:e.jsx("a",{
                 href:"#oferta",
                 className:"cta-button text-base md:text-lg font-bold uppercase tracking-wider inline-block",
