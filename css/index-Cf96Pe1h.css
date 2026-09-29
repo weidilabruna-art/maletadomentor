@@ -223,3 +223,15 @@
     margin: 7rem 0 !important;
   }
 }
+
+/* Authority Section — desktop: row layout + imagem maior */
+@media (min-width: 768px) {
+  .authority-flex-row {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+  }
+  .authority-flex-row img[alt="Rubens Godoy"] {
+    width: 420px !important;
+    max-width: 420px !important;
+  }
+}
