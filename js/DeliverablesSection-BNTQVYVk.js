@@ -1,7 +1,7 @@
-﻿import{j as e,F as s}from"./index-C6USQn8-.js";
+import{j as e,F as s}from"./index-C6USQn8-.js";
 
 const checkIcon=()=>e.jsxs("svg",{
-  className:"w-6 h-6 shrink-0 mt-0.5",
+  className:"w-4 h-4 shrink-0 mt-0.5",
   viewBox:"0 0 24 24",
   fill:"none",
   xmlns:"http://www.w3.org/2000/svg",
@@ -85,9 +85,9 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
+                        className:"deliverables-text",style:{fontSize:"11.5px",lineHeight:"1.45",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
-                          e.jsx("strong",{style:{fontSize:"13px",color:"#03002E"},children:item.strong}),
+                          e.jsx("strong",{style:{fontSize:"11.5px",fontWeight:"700",color:"#03002E"},children:item.strong}),
                           item.text
                         ]
                       })
@@ -118,9 +118,9 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
+                        className:"deliverables-text",style:{fontSize:"11.5px",lineHeight:"1.45",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
-                          e.jsx("strong",{style:{fontSize:"13px",color:"#03002E"},children:item.strong}),
+                          e.jsx("strong",{style:{fontSize:"11.5px",fontWeight:"700",color:"#03002E"},children:item.strong}),
                           item.text
                         ]
                       })
@@ -172,7 +172,7 @@ const d=()=>e.jsx("section",{
               className:"deliverables-card",
               children:[
                 e.jsx("div",{
-                  className:"deliverables-img-wrapper",style:{marginBottom:"32px",marginTop:"-55px"},
+                  className:"deliverables-img-wrapper",style:{marginBottom:"45px",marginTop:"-55px"},
                   children:e.jsx("img",{
                     src:"/capa.webp",
                     alt:"Kit Mentora - Vendas",
@@ -188,9 +188,9 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
+                        className:"deliverables-text",style:{fontSize:"11.5px",lineHeight:"1.45",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
-                          e.jsx("strong",{style:{fontSize:"13px",color:"#03002E"},children:item.strong}),
+                          e.jsx("strong",{style:{fontSize:"11.5px",fontWeight:"700",color:"#03002E"},children:item.strong}),
                           item.text
                         ]
                       })

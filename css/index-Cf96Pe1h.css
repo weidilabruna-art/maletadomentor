@@ -125,58 +125,73 @@
     gap: 4rem !important;
   }
 }
-/* ===== MORE SPACING FOR MOBILE DELIVERABLES ===== */
-.deliverables-text {
-  font-size: 13.5px !important;
-  line-height: 1.55 !important;
+/* ===== DELIVERABLES SPACING & SMALLER TEXT FIX ===== */
+.deliverables-text,
+.deliverables-card p,
+.deliverables-card span {
+  font-size: 11.5px !important;
+  line-height: 1.45 !important;
+  font-family: 'Montserrat', 'Poppins', sans-serif !important;
+  color: #1a1560 !important;
 }
+.deliverables-text strong,
+.deliverables-card strong {
+  font-size: 11.5px !important;
+  font-weight: 700 !important;
+  color: #03002E !important;
+}
+.deliverables-item {
+  padding: 10px 0 !important;
+  gap: 10px !important;
+}
+.deliverables-img-wrapper {
+  margin-top: -55px !important;
+  margin-bottom: 45px !important;
+}
+.deliverables-single-container {
+  margin-top: 6.5rem !important;
+  padding: 0 1rem !important;
+}
+
 @media (max-width: 640px) {
-  .deliverables-item {
-    padding: 20px 0 !important;
-    gap: 16px !important;
+  .deliverables-text,
+  .deliverables-text strong {
+    font-size: 11.5px !important;
+    line-height: 1.45 !important;
   }
-  .deliverables-text {
-    font-size: 13px !important;
-    line-height: 1.55 !important;
+  .deliverables-item {
+    padding: 10px 0 !important;
+    gap: 10px !important;
   }
   .deliverables-card {
-    padding: 0 1.5rem 2.5rem 1.5rem !important;
+    padding: 0 1.25rem 2rem 1.25rem !important;
   }
   .deliverables-container {
     gap: 7rem !important;
     margin-top: 4rem !important;
   }
   .deliverables-single-container {
-    margin-top: 4rem !important;
+    margin-top: 6.5rem !important;
     padding: 0 1rem !important;
   }
   .deliverables-img-wrapper {
     margin-top: -55px !important;
-    margin-bottom: 28px !important;
+    margin-bottom: 45px !important;
   }
 }
-/* ===== DEFINITIVE TEXT SIZE FIX ===== */
-.deliverables-text,
-.deliverables-card p,
-.deliverables-card span {
-  font-size: 13px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat','Poppins',sans-serif !important;
-  color: #1a1560 !important;
+
+@media (min-width: 768px) {
+  .deliverables-single-container {
+    margin-top: 8rem !important;
+  }
+  .deliverables-img-wrapper {
+    margin-bottom: 50px !important;
+  }
 }
-.deliverables-text strong,
-.deliverables-card strong {
-  font-size: 13px !important;
-  font-weight: 700 !important;
-  color: #03002E !important;
-}
-.deliverables-item {
-  padding: 18px 0 !important;
-  gap: 14px !important;
-}
+
 /* ===== AREA DE MEMBROS BANNER SPACING ===== */
 .area-membros-banner {
-  margin: 4.5rem 0 !important;
+  margin: 5rem 0 !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -184,6 +199,6 @@
 }
 @media (min-width: 768px) {
   .area-membros-banner {
-    margin: 6rem 0 !important;
+    margin: 7rem 0 !important;
   }
 }
