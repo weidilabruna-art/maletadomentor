@@ -1,1 +1,129 @@
-import{j as e,F as s}from"./index-C6USQn8-.js";const o=[{title:"Guia de Produtividade Sistêmica",desc:"Combine sua energia com organização para gerar resultados sustentáveis, sem desgaste."},{title:"Planner da Mentora Visionária",desc:"Planejamento estratégico semana a semana para alinhar metas e tarefas, sem achismo."},{title:"Rotina de Sucesso 6-7-1",desc:"Método exclusivo para manter alta performance o dia todo, sem sacrificar sua saúde."},{title:"Checklist da Mentora Organizada",desc:"Todos os seus processos sob controle, sem esquecimentos e sem improvisos."},{title:"Ficha de Seleção para Mentoradas",desc:"Critérios estratégicos para filtrar e atrair clientes alinhadas com o seu trabalho."},{title:"Checklist da Sessão Perfeita",desc:"Protocolo pré e pós sessão para garantir excelência em cada encontro."},{title:"Perfil de Crescimento + Roda da Transformação",desc:"Acompanhe a evolução de cada mentorada com clareza e estratégia."},{title:"Termômetro de Satisfação (NPS) + Radar de Dores",desc:"Feedback contínuo e mapeamento de resultados para você saber exatamente o impacto que está gerando."},{title:"Modelo de Estudo de Caso",desc:"Transforme os resultados das suas mentoradas em prova social que vende por você."},{title:"Calendário Estratégico de Conteúdo",desc:"Postagens que convertem, planejadas com antecedência, sem travar na frente do celular."}],d=()=>e.jsx("section",{className:"section-cream py-16 md:py-20",children:e.jsxs("div",{className:"content-wrapper",children:[e.jsx(s,{children:e.jsxs("div",{className:"text-center mb-10 text-primary",children:[e.jsx("h2",{className:"text-2xl md:text-3xl font-bold leading-snug mb-6",children:"Veja Tudo que Você Terá Acesso no Kit de Ferramentas da Mentora:"}),e.jsx("p",{className:"text-base md:text-lg text-muted-foreground leading-relaxed",children:"Acesse agora o Kit da Mentora para nunca mais improvisar suas entregas e finalmente ser percebida como a mentora de alto nível que você já é — mesmo que esteja começando agora."})]})}),e.jsx("div",{className:"space-y-4",children:o.map((a,t)=>e.jsx(s,{children:e.jsxs("div",{className:"flex items-start gap-3 py-3 border-b border-gold/10 last:border-0 hover:bg-gold/5 transition-colors duration-300 rounded-lg px-2",children:[e.jsx("span",{className:"text-xl text-gold shrink-0 mt-0.5",children:"✅"}),e.jsxs("p",{className:"text-base md:text-lg text-muted-foreground leading-relaxed",children:[e.jsx("span",{className:"font-bold text-primary",children:a.title})," — ",a.desc]})]})},t))})]})});export{d as default};
+import{j as e,F as s}from"./index-C6USQn8-.js";
+
+const checkIcon=()=>e.jsx("svg",{
+  className:"w-5 h-5 shrink-0 mt-0.5",
+  viewBox:"0 0 24 24",
+  fill:"none",
+  xmlns:"http://www.w3.org/2000/svg",
+  children:[
+    e.jsx("circle",{cx:"12",cy:"12",r:"10",stroke:"#c69255",strokeWidth:"1.5",fill:"none"}),
+    e.jsx("path",{d:"M8.5 12.5L11 15L15.5 9.5",stroke:"#c69255",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"})
+  ]
+});
+
+const card1Items=[
+  {strong:"Inteligência artificial",text:" que te ajuda a criar método, módulos e roteiros de aula."},
+  {strong:"Playbook",text:" de Definição de Cliente Ouro"},
+  {strong:"Plano de ação duplicável",text:" para as mentoradas"},
+  {strong:"Manual da mentorada",text:" trilhas de aprendizagem e Checklists"},
+  {strong:"Processos de venda",text:" onboarding e experiência do cliente"}
+];
+
+const card2Items=[
+  {strong:"Rotina de acompanhamento",text:" semanal das mentoradas"},
+  {strong:"Central",text:" de dúvidas, formulários e templates"},
+  {strong:"Conteúdos de atração",text:" de cliente qualificado"},
+  {strong:"Scripts de condução de venda",text:", followup e sessão"},
+  {strong:"CRM e gestão",text:" de mentoradas"},
+  {strong:"Apresentação de venda",text:" no canva"},
+  {strong:"E muito mais...",text:""}
+];
+
+const d=()=>e.jsx("section",{
+  className:"section-cream py-16 md:py-20",
+  children:e.jsxs("div",{
+    className:"content-wrapper max-w-5xl mx-auto",
+    children:[
+      e.jsx(s,{
+        children:e.jsxs("div",{
+          className:"text-center mb-10 text-primary",
+          children:[
+            e.jsx("h2",{
+              className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E]",
+              children:"Veja Tudo que Você Terá Acesso no Kit de Ferramentas da Mentora:"
+            }),
+            e.jsx("p",{
+              className:"text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto",
+              children:"Acesse agora o Kit da Mentora para nunca mais improvisar suas entregas e finalmente ser percebida como a mentora de alto nível que você já é — mesmo que esteja começando agora."
+            })
+          ]
+        })
+      }),
+      e.jsxs("div",{
+        className:"grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch",
+        children:[
+          e.jsx(s,{
+            className:"h-full",
+            children:e.jsxs("div",{
+              className:"bg-white rounded-2xl border border-[#c69255]/50 shadow-xl p-6 sm:p-8 flex flex-col h-full hover:shadow-2xl transition-all duration-300",
+              children:[
+                e.jsx("div",{
+                  className:"mb-6 flex justify-center items-center overflow-hidden rounded-xl",
+                  children:e.jsx("img",{
+                    src:"/Entrega-01.png",
+                    alt:"Kit Mentora - Entrega 1",
+                    loading:"lazy",
+                    decoding:"async",
+                    className:"w-full max-h-[300px] object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
+                  })
+                }),
+                e.jsx("div",{
+                  className:"divide-y divide-gray-100 flex-1 flex flex-col justify-start",
+                  children:card1Items.map((item,idx)=>e.jsxs("div",{
+                    className:"flex items-start gap-3.5 py-3.5 first:pt-2 last:pb-2",
+                    children:[
+                      checkIcon(),
+                      e.jsxs("p",{
+                        className:"text-[#03002E] text-sm sm:text-base leading-snug",
+                        children:[
+                          e.jsx("strong",{className:"font-bold text-[#03002E]",children:item.strong}),
+                          item.text
+                        ]
+                      })
+                    ]
+                  },idx))
+                })
+              ]
+            })
+          }),
+          e.jsx(s,{
+            className:"h-full",
+            children:e.jsxs("div",{
+              className:"bg-white rounded-2xl border border-[#c69255]/50 shadow-xl p-6 sm:p-8 flex flex-col h-full hover:shadow-2xl transition-all duration-300",
+              children:[
+                e.jsx("div",{
+                  className:"mb-6 flex justify-center items-center overflow-hidden rounded-xl",
+                  children:e.jsx("img",{
+                    src:"/Entrega-02.png",
+                    alt:"Kit Mentora - Entrega 2",
+                    loading:"lazy",
+                    decoding:"async",
+                    className:"w-full max-h-[300px] object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
+                  })
+                }),
+                e.jsx("div",{
+                  className:"divide-y divide-gray-100 flex-1 flex flex-col justify-start",
+                  children:card2Items.map((item,idx)=>e.jsxs("div",{
+                    className:"flex items-start gap-3.5 py-3.5 first:pt-2 last:pb-2",
+                    children:[
+                      checkIcon(),
+                      e.jsxs("p",{
+                        className:"text-[#03002E] text-sm sm:text-base leading-snug",
+                        children:[
+                          e.jsx("strong",{className:"font-bold text-[#03002E]",children:item.strong}),
+                          item.text
+                        ]
+                      })
+                    ]
+                  },idx))
+                })
+              ]
+            })
+          })
+        ]
+      })
+    ]
+  })
+});
+
+export{d as default};
