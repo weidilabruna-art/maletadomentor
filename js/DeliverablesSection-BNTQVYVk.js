@@ -36,7 +36,7 @@ const d=()=>e.jsx("section",{
     children:[
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mb-16 md:mb-20 text-primary",
+          className:"text-center mb-10 text-primary",
           children:[
             e.jsx("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E]",
@@ -49,81 +49,76 @@ const d=()=>e.jsx("section",{
           ]
         })
       }),
-      e.jsx("div",{
-        className:"pt-12 md:pt-16",
-        children:e.jsxs("div",{
-          className:"grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-10 items-stretch",
-          children:[
-            e.jsx(s,{
-              className:"h-full flex",
-              children:e.jsxs("div",{
-                className:"relative w-full bg-white rounded-3xl border-[1.5px] border-[#c59b63] shadow-xl px-6 pb-8 md:px-8 md:pb-10 flex flex-col justify-between hover:shadow-2xl transition-all duration-300",
-                children:[
-                  e.jsx("div",{
-                    className:"-mt-14 md:-mt-20 mb-6 flex justify-center items-center",
-                    children:e.jsx("img",{
-                      src:"/Entrega-01.png",
-                      alt:"Kit Mentora - Entrega 1",
-                      loading:"lazy",
-                      decoding:"async",
-                      className:"w-full max-w-[340px] md:max-w-[420px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300"
-                    })
-                  }),
-                  e.jsx("div",{
-                    className:"flex-1 flex flex-col justify-between divide-y divide-[#c59b63]/20",
-                    children:card1Items.map((item,idx)=>e.jsxs("div",{
-                      className:"flex items-start gap-4 py-4 md:py-5 first:pt-2 last:pb-2",
-                      children:[
-                        checkIcon(),
-                        e.jsxs("p",{
-                          className:"text-[#03002E] text-base md:text-lg lg:text-[19px] leading-relaxed",
-                          children:[
-                            e.jsx("strong",{className:"font-bold text-[#03002E]",children:item.strong}),
-                            item.text
-                          ]
-                        })
-                      ]
-                    },idx))
+      e.jsxs("div",{
+        className:"deliverables-container",
+        children:[
+          e.jsx(s,{
+            children:e.jsxs("div",{
+              className:"deliverables-card",
+              children:[
+                e.jsx("div",{
+                  className:"deliverables-img-wrapper",
+                  children:e.jsx("img",{
+                    src:"/Imagens-para-Kit-Mentora-7.webp",
+                    alt:"Kit Mentora - Entrega 1",
+                    loading:"lazy",
+                    decoding:"async",
+                    className:"deliverables-img"
                   })
-                ]
-              })
-            }),
-            e.jsx(s,{
-              className:"h-full flex",
-              children:e.jsxs("div",{
-                className:"relative w-full bg-white rounded-3xl border-[1.5px] border-[#c59b63] shadow-xl px-6 pb-8 md:px-8 md:pb-10 flex flex-col justify-between hover:shadow-2xl transition-all duration-300",
-                children:[
-                  e.jsx("div",{
-                    className:"-mt-14 md:-mt-20 mb-6 flex justify-center items-center",
-                    children:e.jsx("img",{
-                      src:"/Entrega-02.png",
-                      alt:"Kit Mentora - Entrega 2",
-                      loading:"lazy",
-                      decoding:"async",
-                      className:"w-full max-w-[340px] md:max-w-[420px] object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300"
-                    })
-                  }),
-                  e.jsx("div",{
-                    className:"flex-1 flex flex-col justify-between divide-y divide-[#c59b63]/20",
-                    children:card2Items.map((item,idx)=>e.jsxs("div",{
-                      className:"flex items-start gap-4 py-4 md:py-5 first:pt-2 last:pb-2",
-                      children:[
-                        checkIcon(),
-                        e.jsxs("p",{
-                          className:"text-[#03002E] text-base md:text-lg lg:text-[19px] leading-relaxed",
-                          children:[
-                            e.jsx("strong",{className:"font-bold text-[#03002E]",children:item.strong}),
-                            item.text
-                          ]
-                        })
-                      ]
-                    },idx))
-                  })
-                ]
-              })
+                }),
+                e.jsx("div",{
+                  className:"deliverables-list",
+                  children:card1Items.map((item,idx)=>e.jsxs("div",{
+                    className:"deliverables-item",
+                    children:[
+                      checkIcon(),
+                      e.jsxs("p",{
+                        className:"deliverables-text",
+                        children:[
+                          e.jsx("strong",null,item.strong),
+                          item.text
+                        ]
+                      })
+                    ]
+                  },idx))
+                })
+              ]
             })
-          ]
-        })
+          }),
+          e.jsx(s,{
+            children:e.jsxs("div",{
+              className:"deliverables-card",
+              children:[
+                e.jsx("div",{
+                  className:"deliverables-img-wrapper",
+                  children:e.jsx("img",{
+                    src:"/capa.webp",
+                    alt:"Kit Mentora - Entrega 2",
+                    loading:"lazy",
+                    decoding:"async",
+                    className:"deliverables-img"
+                  })
+                }),
+                e.jsx("div",{
+                  className:"deliverables-list",
+                  children:card2Items.map((item,idx)=>e.jsxs("div",{
+                    className:"deliverables-item",
+                    children:[
+                      checkIcon(),
+                      e.jsxs("p",{
+                        className:"deliverables-text",
+                        children:[
+                          e.jsx("strong",null,item.strong),
+                          item.text
+                        ]
+                      })
+                    ]
+                  },idx))
+                })
+              ]
+            })
+          })
+        ]
       })
     ]
   })
