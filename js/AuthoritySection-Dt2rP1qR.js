@@ -21,8 +21,7 @@ const t=()=>e.jsx("section",{
               alt:"Rubens Godoy",
               loading:"lazy",
               decoding:"async",
-              className:"w-64 md:w-80 rounded-2xl object-cover border-4 border-gold/40 shadow-2xl -rotate-1 hover:rotate-0 transition-transform duration-500",
-              style:{aspectRatio:"4 / 5"}
+              className:"w-72 md:w-80 max-w-full rounded-3xl object-cover shadow-xl"
             })
           }),
           e.jsxs("div",{
@@ -57,12 +56,12 @@ const t=()=>e.jsx("section",{
                 children:"Rubens já ajudou dezenas de profissionais a:"
               }),
               e.jsx("ul",{
-                className:"space-y-2 text-left mb-4 inline-block md:block",
+                className:"space-y-2.5 text-left mb-4",
                 children:bulletItems.map((item,idx)=>e.jsxs("li",{
-                  className:"flex items-start gap-2.5 text-base md:text-lg text-muted-foreground leading-relaxed",
+                  className:"text-base md:text-lg text-muted-foreground leading-relaxed",
                   children:[
-                    e.jsx("span",{className:"text-gold font-bold text-lg leading-none mt-1",children:"–"}),
-                    e.jsx("span",{children:item})
+                    e.jsx("span",{className:"text-gold font-bold mr-2",children:"–"}),
+                    item
                   ]
                 },idx))
               })
