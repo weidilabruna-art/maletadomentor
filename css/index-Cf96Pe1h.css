@@ -129,20 +129,20 @@
 .deliverables-text,
 .deliverables-card p,
 .deliverables-card span {
-  font-size: 11.5px !important;
-  line-height: 1.45 !important;
+  font-size: 13.5px !important;
+  line-height: 1.5 !important;
   font-family: 'Montserrat', 'Poppins', sans-serif !important;
   color: #1a1560 !important;
 }
 .deliverables-text strong,
 .deliverables-card strong {
-  font-size: 11.5px !important;
+  font-size: 13.5px !important;
   font-weight: 700 !important;
   color: #03002E !important;
 }
 .deliverables-item {
-  padding: 10px 0 !important;
-  gap: 10px !important;
+  padding: 14px 0 !important;
+  gap: 12px !important;
 }
 .deliverables-img-wrapper {
   margin-top: -55px !important;
@@ -153,15 +153,22 @@
   padding: 0 1rem !important;
 }
 
+/* ===== MOBILE ONLY SMALLER TEXT (< 640px) ===== */
 @media (max-width: 640px) {
   .deliverables-text,
-  .deliverables-text strong {
-    font-size: 11.5px !important;
-    line-height: 1.45 !important;
+  .deliverables-card p,
+  .deliverables-card span {
+    font-size: 10px !important;
+    line-height: 1.35 !important;
+  }
+  .deliverables-text strong,
+  .deliverables-card strong {
+    font-size: 10px !important;
+    font-weight: 700 !important;
   }
   .deliverables-item {
-    padding: 10px 0 !important;
-    gap: 10px !important;
+    padding: 7px 0 !important;
+    gap: 8px !important;
   }
   .deliverables-card {
     padding: 0 1.25rem 2rem 1.25rem !important;

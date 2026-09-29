@@ -85,9 +85,9 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",style:{fontSize:"11.5px",lineHeight:"1.45",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
+                        className:"deliverables-text",
                         children:[
-                          e.jsx("strong",{style:{fontSize:"11.5px",fontWeight:"700",color:"#03002E"},children:item.strong}),
+                          e.jsx("strong",{children:item.strong}),
                           item.text
                         ]
                       })
@@ -118,9 +118,9 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",style:{fontSize:"11.5px",lineHeight:"1.45",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
+                        className:"deliverables-text",
                         children:[
-                          e.jsx("strong",{style:{fontSize:"11.5px",fontWeight:"700",color:"#03002E"},children:item.strong}),
+                          e.jsx("strong",{children:item.strong}),
                           item.text
                         ]
                       })
@@ -188,9 +188,9 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",style:{fontSize:"11.5px",lineHeight:"1.45",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
+                        className:"deliverables-text",
                         children:[
-                          e.jsx("strong",{style:{fontSize:"11.5px",fontWeight:"700",color:"#03002E"},children:item.strong}),
+                          e.jsx("strong",{children:item.strong}),
                           item.text
                         ]
                       })
