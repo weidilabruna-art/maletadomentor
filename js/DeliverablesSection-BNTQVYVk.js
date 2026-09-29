@@ -48,7 +48,7 @@ const d=()=>e.jsx("section",{
       /* Top Section: Gestão e Entrega */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mt-16 mb-14 md:mt-24 md:mb-16 text-primary",
+          style:{textAlign:"center",marginBottom:"3.5rem",color:"#03002E"},
           children:[
             e.jsx("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E]",
@@ -85,7 +85,7 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",
+                        className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
                           e.jsx("strong",{children:item.strong}),
                           item.text
@@ -118,7 +118,7 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",
+                        className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
                           e.jsx("strong",{children:item.strong}),
                           item.text
@@ -136,7 +136,7 @@ const d=()=>e.jsx("section",{
       /* Banner: Área de Membros Exclusiva com espaçamento generoso */
       e.jsx(s,{
         children:e.jsx("div",{
-          className:"my-28 md:my-40 flex justify-center items-center px-2",
+          style:{margin:"10rem 0",display:"flex",justifyContent:"center",alignItems:"center",padding:"0 0.5rem"},
           children:e.jsx("img",{
             src:"/2-5.webp",
             alt:"Área de Membros Exclusiva",
@@ -150,10 +150,10 @@ const d=()=>e.jsx("section",{
       /* Bottom Section: Vendas com espaçamento generoso */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mt-16 mb-14 md:mt-24 md:mb-16 text-primary",
+          style:{textAlign:"center",marginBottom:"3.5rem",color:"#03002E"},
           children:[
             e.jsxs("h2",{
-              className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E] max-w-3xl mx-auto",
+              style:{fontSize:"clamp(1.5rem,3vw,2.25rem)",fontWeight:800,lineHeight:1.25,marginBottom:"1rem",color:"#03002E",maxWidth:"50rem",marginLeft:"auto",marginRight:"auto",fontFamily:"Montserrat,Poppins,sans-serif"},
               children:[
                 "Além das ferramentas de gestão e entrega da mentoria, tenha o ",
                 e.jsx("strong",{className:"font-bold text-[#03002E]",children:"que precisa pra aumentar suas vendas:"})
@@ -188,7 +188,7 @@ const d=()=>e.jsx("section",{
                     children:[
                       checkIcon(),
                       e.jsxs("p",{
-                        className:"deliverables-text",
+                        className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
                           e.jsx("strong",{children:item.strong}),
                           item.text
