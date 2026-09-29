@@ -1,4 +1,4 @@
-import{j as e,F as s}from"./index-C6USQn8-.js";
+﻿import{j as e,F as s}from"./index-C6USQn8-.js";
 
 const checkIcon=()=>e.jsxs("svg",{
   className:"w-6 h-6 shrink-0 mt-0.5",
@@ -48,7 +48,7 @@ const d=()=>e.jsx("section",{
       /* Top Section: Gestão e Entrega */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mb-16 md:mb-20 text-primary",
+          className:"text-center mt-12 mb-16 md:mt-20 md:mb-20 text-primary",
           children:[
             e.jsx("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E]",
@@ -150,7 +150,7 @@ const d=()=>e.jsx("section",{
       /* Bottom Section: Vendas com espaçamento generoso */
       e.jsx(s,{
         children:e.jsxs("div",{
-          className:"text-center mb-16 md:mb-20 text-primary",
+          className:"text-center mt-12 mb-16 md:mt-20 md:mb-20 text-primary",
           children:[
             e.jsxs("h2",{
               className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E] max-w-3xl mx-auto",
