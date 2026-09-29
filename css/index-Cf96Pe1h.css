@@ -116,3 +116,11 @@
 *, body, h1, h2, h3, h4, h5, h6, p, li, span, a, button {
   font-family: 'Montserrat', 'Poppins', sans-serif;
 }
+/* ===== AUTHORITY SECTION FLEX ROW DESKTOP ===== */
+@media (min-width: 768px) {
+  .authority-flex-row {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 4rem !important;
+  }
+}
