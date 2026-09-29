@@ -87,7 +87,7 @@ const d=()=>e.jsx("section",{
                       e.jsxs("p",{
                         className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
-                          e.jsx("strong",{children:item.strong}),
+                          e.jsx("strong",{style:{fontSize:"13px",color:"#03002E"},children:item.strong}),
                           item.text
                         ]
                       })
@@ -120,7 +120,7 @@ const d=()=>e.jsx("section",{
                       e.jsxs("p",{
                         className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
-                          e.jsx("strong",{children:item.strong}),
+                          e.jsx("strong",{style:{fontSize:"13px",color:"#03002E"},children:item.strong}),
                           item.text
                         ]
                       })
@@ -136,7 +136,7 @@ const d=()=>e.jsx("section",{
       /* Banner: Área de Membros Exclusiva com espaçamento generoso */
       e.jsx(s,{
         children:e.jsx("div",{
-          style:{margin:"10rem 0",display:"flex",justifyContent:"center",alignItems:"center",padding:"0 0.5rem"},
+          className:"area-membros-banner",
           children:e.jsx("img",{
             src:"/2-5.webp",
             alt:"Área de Membros Exclusiva",
@@ -172,7 +172,7 @@ const d=()=>e.jsx("section",{
               className:"deliverables-card",
               children:[
                 e.jsx("div",{
-                  className:"deliverables-img-wrapper",
+                  className:"deliverables-img-wrapper",style:{marginBottom:"32px",marginTop:"-55px"},
                   children:e.jsx("img",{
                     src:"/capa.webp",
                     alt:"Kit Mentora - Vendas",
@@ -190,7 +190,7 @@ const d=()=>e.jsx("section",{
                       e.jsxs("p",{
                         className:"deliverables-text",style:{fontSize:"13px",lineHeight:"1.5",color:"#1a1560",fontFamily:"Montserrat,Poppins,sans-serif"},
                         children:[
-                          e.jsx("strong",{children:item.strong}),
+                          e.jsx("strong",{style:{fontSize:"13px",color:"#03002E"},children:item.strong}),
                           item.text
                         ]
                       })
