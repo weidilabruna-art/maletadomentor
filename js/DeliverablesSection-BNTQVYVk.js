@@ -1,6 +1,6 @@
 import{j as e,F as s}from"./index-C6USQn8-.js";
 
-const checkIcon=()=>e.jsx("svg",{
+const checkIcon=()=>e.jsxs("svg",{
   className:"w-6 h-6 shrink-0 mt-0.5",
   viewBox:"0 0 24 24",
   fill:"none",
@@ -75,7 +75,7 @@ const d=()=>e.jsx("section",{
                       e.jsxs("p",{
                         className:"deliverables-text",
                         children:[
-                          e.jsx("strong",null,item.strong),
+                          e.jsx("strong",{children:item.strong}),
                           item.text
                         ]
                       })
@@ -108,7 +108,7 @@ const d=()=>e.jsx("section",{
                       e.jsxs("p",{
                         className:"deliverables-text",
                         children:[
-                          e.jsx("strong",null,item.strong),
+                          e.jsx("strong",{children:item.strong}),
                           item.text
                         ]
                       })
