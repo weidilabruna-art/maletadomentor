@@ -29,11 +29,23 @@ const card2Items=[
   {strong:"E muito mais...",text:""}
 ];
 
+const salesItems=[
+  {strong:"Rotina de story validados",text:" para vender mentorias"},
+  {strong:"Modelo e Formulário de Aplicação",text:" e diagnóstico"},
+  {strong:"Script de venda no Whatsapp e Direct",text:" para vender sem sessão estratégica"},
+  {strong:"Banco de objeções",text:" para não travar na hora da venda"},
+  {strong:"CRM de vendas",text:" para acompanhar potencias clientes"},
+  {strong:"Processo de condução de follow-up",text:" de vendas com mensagens prontas"},
+  {strong:"Conteúdos para atrair clientes",text:" e vender com consistência"},
+  {strong:"E muito mais...",text:""}
+];
+
 const d=()=>e.jsx("section",{
   className:"section-cream py-16 md:py-24",
   children:e.jsxs("div",{
     className:"content-wrapper max-w-6xl mx-auto",
     children:[
+      /* Top Section: Gestão e Entrega */
       e.jsx(s,{
         children:e.jsxs("div",{
           className:"text-center mb-10 text-primary",
@@ -92,7 +104,7 @@ const d=()=>e.jsx("section",{
                 e.jsx("div",{
                   className:"deliverables-img-wrapper",
                   children:e.jsx("img",{
-                    src:"/capa.webp",
+                    src:"/Imagens-para-Kit-Mentora-2-1.webp",
                     alt:"Kit Mentora - Entrega 2",
                     loading:"lazy",
                     decoding:"async",
@@ -120,9 +132,11 @@ const d=()=>e.jsx("section",{
           })
         ]
       }),
+
+      /* Banner: Área de Membros Exclusiva */
       e.jsx(s,{
         children:e.jsx("div",{
-          className:"mt-14 md:mt-20 flex justify-center items-center px-2",
+          className:"mt-16 md:mt-24 flex justify-center items-center px-2",
           children:e.jsx("img",{
             src:"/2-5.webp",
             alt:"Área de Membros Exclusiva",
@@ -130,6 +144,70 @@ const d=()=>e.jsx("section",{
             decoding:"async",
             className:"w-full max-w-4xl object-contain drop-shadow-2xl rounded-2xl hover:scale-[1.02] transition-transform duration-300"
           })
+        })
+      }),
+
+      /* Bottom Section: Vendas */
+      e.jsx(s,{
+        children:e.jsxs("div",{
+          className:"text-center mt-16 md:mt-24 mb-10 text-primary",
+          children:[
+            e.jsxs("h2",{
+              className:"text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4 text-[#03002E] max-w-3xl mx-auto",
+              children:[
+                "Além das ferramentas de gestão e entrega da mentoria, tenha o ",
+                e.jsx("strong",{className:"font-bold text-[#03002E]",children:"que precisa pra aumentar suas vendas:"})
+              ]
+            })
+          ]
+        })
+      }),
+
+      /* Centered Sales Card */
+      e.jsx(s,{
+        children:e.jsxs("div",{
+          className:"max-w-2xl mx-auto pt-10",
+          children:[
+            e.jsxs("div",{
+              className:"deliverables-card",
+              children:[
+                e.jsx("div",{
+                  className:"deliverables-img-wrapper",
+                  children:e.jsx("img",{
+                    src:"/capa.webp",
+                    alt:"Kit Mentora - Vendas",
+                    loading:"lazy",
+                    decoding:"async",
+                    className:"deliverables-img"
+                  })
+                }),
+                e.jsx("div",{
+                  className:"deliverables-list",
+                  children:salesItems.map((item,idx)=>e.jsxs("div",{
+                    className:"deliverables-item",
+                    children:[
+                      checkIcon(),
+                      e.jsxs("p",{
+                        className:"deliverables-text",
+                        children:[
+                          e.jsx("strong",{children:item.strong}),
+                          item.text
+                        ]
+                      })
+                    ]
+                  },idx))
+                })
+              ]
+            }),
+            e.jsx("div",{
+              className:"mt-10 text-center",
+              children:e.jsx("a",{
+                href:"#oferta",
+                className:"cta-button text-base md:text-lg font-bold uppercase tracking-wider inline-block",
+                children:"QUERO VENDER MENTORIAS"
+              })
+            })
+          ]
         })
       })
     ]
